@@ -153,3 +153,9 @@ Responsive Task Manager | Self Project (Jun'25 - Jul'25)
 - Implemented JWT authentication and REST APIs for secure user-specific task workflows.
 - Added Render deployment configuration with separate frontend/API services and managed PostgreSQL support.
 ```
+
+## Live Demo
+
+Try the deployed application: [Responsive Task Manager](https://responsive-task-manager-web-0lgv.onrender.com/)
+
+Register an account to create and manage your own tasks.

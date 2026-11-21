@@ -15,9 +15,9 @@ services:
       - key: SECRET_KEY
         generateValue: true
       - key: ALLOWED_HOSTS
-        value: responsive-task-manager-api.onrender.com
+        value: responsive-task-manager-api-0lgv.onrender.com
       - key: CORS_ALLOWED_ORIGINS
-        value: https://responsive-task-manager-web.onrender.com
+        value: https://responsive-task-manager-web-0lgv.onrender.com
       - key: DATABASE_URL
         fromDatabase:
           name: responsive-task-manager-db

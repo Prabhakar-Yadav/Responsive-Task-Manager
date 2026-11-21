@@ -8,6 +8,8 @@ services:
     buildCommand: pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate
     startCommand: gunicorn task_manager.wsgi:application
     envVars:
+      - key: PYTHON_VERSION
+        value: "3.12.11"
       - key: DEBUG
         value: "false"
       - key: SECRET_KEY
@@ -29,7 +31,7 @@ services:
     staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
-        value: https://responsive-task-manager-api.onrender.com/api
+        value: https://responsive-task-manager-api-0lgv.onrender.com/api
 
 databases:
   - name: responsive-task-manager-db
